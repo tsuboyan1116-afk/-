@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #0d0d0d;
+  font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input::placeholder { color: #444; }
+input:focus { border-color: #c9a84c !important; outline: none; }
+
+.addBtn:hover { background: #e8d5a0 !important; transform: scale(1.05); }
+.addBtn:active { transform: scale(0.97); }
+.checkBtn:hover { border-color: #c9a84c !important; }
+.delete
